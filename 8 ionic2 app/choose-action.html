@@ -1,0 +1,11 @@
+<ion-navbar *navbar>
+	<button menuToggle>
+		<ion-icon name="menu"></ion-icon>
+	</button>
+	<ion-title>New Effect</ion-title>
+</ion-navbar>
+
+<ion-content padding class="choose-action">
+	<button block (click)="getPicture('device')">Choose from device</button>
+	<button block (click)="getPicture('camera')">Take a picture</button>
+</ion-content>

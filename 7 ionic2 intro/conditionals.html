@@ -1,0 +1,12 @@
+<div *ngIf="someBoolean">Hello 1</div>
+
+<div [ngSwitch]="someValues">
+  <p *ngSwitchWhen="1">Paragraph 1</p>
+  <p *ngSwitchWhen="2">Paragraph 2</p>
+  <p *ngSwitchWhen="3">Paragraph 3</p>
+  <p *ngSwitchDefault>Paragraph</p>
+</div>
+
+<div [hidden]="someBoolean">Hello 2</div>
+
+<div [class.my-custom-class]="someBoolean">Hello 3</div>

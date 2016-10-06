@@ -1,0 +1,9 @@
+<ion-list>
+    <ion-item ng-repeat="movie in movies track by movie.id">
+        {{movie.title}}
+    </ion-item>
+    
+    <ion-item ng-repeat="movie in movies track by $index">
+        {{movie.title}}
+    </ion-item>
+</ion-list>

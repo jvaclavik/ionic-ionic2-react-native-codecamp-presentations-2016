@@ -1,0 +1,1 @@
+$translate.instant("BASIC.NO_CONNECTION");

@@ -1,0 +1,10 @@
+<ion-navbar *navbar>
+    <ion-title>cropper</ion-title>
+    <ion-buttons end>
+        <button (click)="getCroppedData()">Use</button>
+    </ion-buttons>
+</ion-navbar>
+
+<ion-content class="cropper">
+    <img src="{{imageData}}" id="cropper-img"/>
+</ion-content>

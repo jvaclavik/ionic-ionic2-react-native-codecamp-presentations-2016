@@ -1,0 +1,11 @@
+<ion-navbar *navbar class="hide">
+  <ion-title>Gallery detail</ion-title>
+</ion-navbar>
+
+<ion-content padding class="gallery-detail" (click)="closeModal()">
+  <ion-slides pager [options]="slideOptions">
+    <ion-slide *ngFor="#photo of gallery">
+      <img src="{{photo}}" />
+    </ion-slide>
+  </ion-slides>
+</ion-content>

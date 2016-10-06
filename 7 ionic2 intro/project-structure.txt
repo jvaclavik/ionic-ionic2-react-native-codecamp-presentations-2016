@@ -1,0 +1,28 @@
+├── app
+│   ├── app.js
+│   ├── pages
+│   │   ├── page1
+│   │   │   ├── page1.html
+│   │   │   ├── page1.js
+│   │   │   └── page1.scss
+│   │   ├── page2
+│   │   ├── page3
+│   │   └── tabs
+│   └── theme
+│       ├── app.core.scss
+│       ├── app.ios.scss
+│       ├── app.md.scss
+│       ├── app.variables.scss
+│       └── app.wp.scss
+├── config.xml
+├── gulpfile.js
+├── hooks
+├── ionic.config.js
+├── ionic.config.json
+├── node_modules
+├── package.json
+├── platforms
+├── plugins
+├── resources
+└── www
+    └── index.html

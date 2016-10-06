@@ -1,0 +1,11 @@
+<form [ngFormModel]="myForm" (submit)="saveForm($event)">
+    <ion-item>
+        <ion-label stacked>Name</ion-label>
+        <ion-input ngControl="name" type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label stacked>House number</ion-label>
+        <ion-input ngControl="houseNumber" type="number"></ion-input>
+    </ion-item>
+    <button type="submit">Save</button>
+</form>

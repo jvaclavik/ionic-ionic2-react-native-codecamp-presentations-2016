@@ -1,0 +1,17 @@
+<ion-navbar *navbar>
+    <button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Warholize</ion-title>
+</ion-navbar>
+
+<ion-content padding class="warholize">
+    <img src="{{imgSrc}}" id="source-image">
+    <div id="previews"></div>
+    <button block 
+        (click)="applyEffect('vertical')" 
+        *ngIf="!generated">Vertical effect</button>
+    <button block 
+        (click)="applyEffect('horizontal')" 
+        *ngIf="!generated">Horizontal effect</button>
+</ion-content>

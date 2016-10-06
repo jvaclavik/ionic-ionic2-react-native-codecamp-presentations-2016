@@ -1,0 +1,15 @@
+<segment [(ngModel)]="pet">
+    <ion-segment-button value="kittens">Kittens</ion-segment-button>
+    <ion-segment-button value="puppies">Puppies</ion-segment-button>
+</ion-segment>
+
+<div [ngSwitch]="pet">
+    <ion-list *ngSwitchWhen="'puppies'">
+        <ion-item>Oscar</ion-item>
+        ...
+    </ion-list>
+    <ion-list *ngSwitchWhen="'kittens'">
+        <ion-item>Luna</ion-item>
+        ...
+    </ion-list>
+</div>

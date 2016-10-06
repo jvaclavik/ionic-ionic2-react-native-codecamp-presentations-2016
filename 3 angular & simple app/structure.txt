@@ -1,0 +1,24 @@
+├── bower.json             # Bower config file
+├── config.xml             # Cordova config file
+├── gulpfile.js            # Gulp config file
+├── hooks                  # Scropts for customization of Cordova commands
+├── ionic.project          # Ionic projekt config file
+├── package.json           # Dependencies and plugins which are used in project
+├── platforms              # Source codes for building on platforms
+├── plugins                # Cordova plugins
+├── scss                   # SCSS used for generate CSS
+└── www                    # Web app directory
+    ├── css                # Generated CSS
+    ├── img                # Images in the app
+    ├── index.html         # Main template
+    ├── js                 # Directory with app logic
+    │   ├── app.js         # Config and route file
+    │   ├── controllers.js # Controller
+    │   └── services.js    # Models
+    ├── lib                # External JS libs
+    └── templates          # Included templates
+        ├── chat-detail.html
+        ├── tab-account.html
+        ├── tab-chats.html
+        ├── tab-dash.html
+        └── tabs.html
